@@ -11,3 +11,5 @@ Pudding jelly gummies biscuit ice cream pastry cupcake pie jelly. Lollipop cake 
 
 Lemon drops ice cream icing ice cream jujubes jelly chocolate cake sweet roll candy canes. Biscuit gingerbread sesame snaps powder gummies. Halvah gummi bears biscuit cupcake fruitcake. Donut jelly beans jelly beans.
 
+![Cupcake Ipsum](survey/appendix/printout1.png)
+

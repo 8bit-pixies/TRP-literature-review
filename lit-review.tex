@@ -1,5 +1,11 @@
 \documentclass[12pt,]{article}
 
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}% http://ctan.org/pkg/adjustbox
+\let\oldincludegraphics\includegraphics
+\renewcommand{\includegraphics}[2][]{%
+  \oldincludegraphics[#1,max width=\linewidth]{#2}}
+
 \usepackage{titlesec}
 \newcommand{\sectionbreak}{\clearpage}
 
@@ -211,5 +217,11 @@ Lemon drops ice cream icing ice cream jujubes jelly chocolate cake sweet
 roll candy canes. Biscuit gingerbread sesame snaps powder gummies.
 Halvah gummi bears biscuit cupcake fruitcake. Donut jelly beans jelly
 beans.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{survey/appendix/printout1.png}
+\caption{Cupcake Ipsum}
+\end{figure}
 
 \end{document}

@@ -3,6 +3,13 @@ $if(beamerarticle)$
 \usepackage{beamerarticle} % needs to be loaded first
 $endif$
 
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}% http://ctan.org/pkg/adjustbox
+\let\oldincludegraphics\includegraphics
+\renewcommand{\includegraphics}[2][]{%
+  \oldincludegraphics[#1,max width=\linewidth]{#2}}
+
+
 %\usepackage{titlesec}
 %\newcommand{\sectionbreak}{\clearpage}
 
@@ -290,3 +297,5 @@ $include-after$
 
 $endfor$
 \end{document}
+
+

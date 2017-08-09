@@ -1,0 +1,13 @@
+---
+title: Literature Review
+author: My Name
+language: en
+geometry: margin=1in
+toc  : 1
+mainfont: Times New Romans
+fontsize: 12pt
+csl: survey/harvard-university-of-technology-Sydney.csl
+bibliography: survey/paper.bib
+template: survey/default_custom.latex
+...
+
